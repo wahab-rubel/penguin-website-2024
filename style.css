@@ -123,3 +123,63 @@ height: 39px;
  font-size: 36px;
  color: rgba(250, 190, 76, 1);
 }
+
+/** -------------------------footer section style------------------  **/
+.foot-section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 83px;
+}
+.offer-title{
+ font-weight: bold;
+ font-size: 24px;
+ color: rgba(54, 57, 88, 1);
+}
+.offer-description{
+ font-size: 16px;
+ color: rgba(62, 62, 62, 1);
+}
+.home{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 489px;
+ height: 135px;
+ gap: 36px;
+ box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 8px;
+ margin: 16px;
+}
+.home img{
+ width: 78px;
+ height: 82px;
+ border-radius: 30px;
+}
+
+
+.add-image img{
+ width: 599px;
+ height: 354px;
+}
+
+
+/**------------------------media query--------------------------  **/
+@media screen and (max-width: 576px) {
+ .navbar{
+  flex-direction: column;
+ }
+ .logo, ul{
+  flex-direction: column;
+ }
+ .hero-section{
+  flex-direction: column;
+ }
+ .card-image{
+  flex-direction: column;
+ }
+ .foot-section{
+  flex-direction: column;
+ }
+}
+
+
