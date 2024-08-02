@@ -1,0 +1,125 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&display=swap');
+.bebas-neue-regular {
+ font-family: "Bebas Neue", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+/* .cedarville-cursive-regular {
+ font-family: "Cedarville Cursive", cursive;
+ font-weight: 400;
+ font-style: normal;
+} */
+/** ----------------------------sheared style-------------------------------  */
+.primary-btn{
+ width: 165px;
+ height: 58px;
+ background-color: rgba(164, 188, 70, 1);
+ color: rgba(255, 255, 255, 1);
+ border: none;
+ border-radius: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+}
+.primary-btn img{
+ width: 24px;
+ height: 24px;
+}
+header {
+ background-color: rgba(255, 251, 240, 1);
+}
+/** ------------------------------NAVBAR STYLE------------------------------ */
+.logo img{
+width: 291px;
+height: 39px;
+}
+.navbar{
+ display: flex;
+ justify-content: space-between;
+}
+.navbar .logo, ul{
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 47px 135px;
+ 
+}
+.navbar li a{
+ text-decoration: none !important;
+ margin: 50px;
+}
+
+/**---------------------------------------------- HERO SECTION STYLE--------------------------------- **/
+.hero-section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 50px;
+ gap: 250px;
+}
+.hero-title span{
+ color: rgba(250, 190, 76, 1);
+}
+.hero-title{
+ font-size: 80px;
+}
+.hero-description{
+ font-size: 16px;
+ color: rgba(62, 62, 62, 1);
+ margin-top: 10px;
+}
+/** ------------------------- CARD SECTION----------------------- **/
+.card-title{
+ font-weight: 700;
+ font-size: 48px;
+ color: rgba(54, 57, 88, 1);
+ margin-left: 300px;
+ text-transform: uppercase;
+}
+.card-image{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.card-1{
+ width: 370px;
+ height: 550px;
+ padding: 15px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ margin-bottom: 150px;
+ margin: 30px;
+}
+.jacket-image{
+ background-color: rgba(241, 241, 241, 1);
+ width: 293px;
+ height: 293px;
+ padding: 25px;
+ border-radius: 30px;
+}
+.jacket-name{
+ font-weight: bold !important;
+ font-size: 24px;
+ color: rgba(54, 57, 88, 1);
+ margin: 5px;
+}
+.jacket-description{
+ font-size: 15px;
+ color: rgba(62, 62, 62, 1);
+ margin: 5px;
+}
+.price-btn{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.price-btn span{
+ font-weight: bold;
+ font-size: 36px;
+ color: rgba(250, 190, 76, 1);
+}
